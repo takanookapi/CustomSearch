@@ -5,9 +5,9 @@
 * CustomSearchAPI
 
 ## 注意点
-* dockerでインフラを構築しており、ローカル環境での開発しています。
-┗docker install
-┗docker compose up -d //dockerが入っていれば、こちらのコマンドですぐに環境構築が可能です。
+* dockerでインフラを構築しており、ローカル環境での開発しています。</br>
+┗docker install</br>
+┗docker compose up -d //dockerが入っていれば、こちらのコマンドですぐに環境構築が可能です。</br>
 * /common/constants.phpにある"CUSTOM_SEARCH_API_KEY"、"CUSTOM_SEARCH_ID"に
 それぞれGooglのAPIキー、CustomSearchAPIで使用する検索エンジンIDの入力をお願いします。
 * 管理画面を想定して開発したため、canonicalやmetaタグは省略しています。
