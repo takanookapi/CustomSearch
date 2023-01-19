@@ -1,0 +1,22 @@
+<?php
+
+//システムバージョン
+define("VERSION", "1.0.0");
+
+//API呼び出し回数(1つあたり10件、最大10まで)
+define("DISPLAY_SEARCH_RESULT" , 2);
+
+//パス
+define("ROOT_PATH" , "/var/www/html/");
+
+//CustomSearchAPIのURL
+define("CUSTOM_SEARCH_URL", "https://www.googleapis.com/customsearch/v1?");
+
+//APIキー
+define("CUSTOM_SEARCH_API_KEY", "");
+
+
+//検索エンジンID
+define("CUSTOM_SEARCH_ID", "");
+
+?>
