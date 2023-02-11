@@ -30,7 +30,6 @@ $(function() {
             //検索結果表示
             if(res.result) {
                 array.map((obj, i)=>{
-                    console.log(obj);
                     html += `<li class="itemList">`;
                     html += `<dl>`;
                     html += `<dt>`;

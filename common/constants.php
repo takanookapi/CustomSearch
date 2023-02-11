@@ -1,7 +1,7 @@
 <?php
 
 //システムバージョン
-define("VERSION", "1.1.1");
+define("VERSION", "1.1.2");
 
 //API呼び出し回数(1つあたり10件、最大10まで)
 define("DISPLAY_SEARCH_RESULT" , 2);
