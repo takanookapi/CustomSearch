@@ -13,10 +13,9 @@ define("ROOT_PATH" , "/var/www/html/");
 define("CUSTOM_SEARCH_URL", "https://www.googleapis.com/customsearch/v1?");
 
 //APIキー
-define("CUSTOM_SEARCH_API_KEY", "");
-
+define("CUSTOM_SEARCH_API_KEY", "AIzaSyAZ72sODHqAThGabOG9_LadmqJeNnphiHc");
 
 //検索エンジンID
-define("CUSTOM_SEARCH_ID", "");
+define("CUSTOM_SEARCH_ID", "420cfcf7b32bf436a");
 
 ?>

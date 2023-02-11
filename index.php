@@ -13,17 +13,16 @@ $title = "Google検索";
     <body>
         <?php include(ROOT_PATH."/inc/header.php"); ?>
 
-        <form action="/search_send.php" class="search" id="frmSearch">
+        <form action="/api/search_send_get.php" class="search" id="frmSearch">
             <input type="text" name="keyword" id="keyword" value="" placeholder="検索文字を入力" maxlength="32">
-            <button class="submit" type="submit">
+            <a class="submit" type="button">
                 <svg class="searchSvg">
                     <use xlink:href="#searchSvg"></use>
                 </svg>
-            </button>
+</a>
         </form>
 
         <main id="searchResult">
-            <!-- API -->
         </main>
 
         <?php include(ROOT_PATH."/inc/footer.php"); ?>
