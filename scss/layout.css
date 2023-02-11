@@ -56,6 +56,7 @@ form a.submit .searchSvg {
 
 #searchResult .quantityTime {
   margin: 0.5rem;
+  text-align: right;
 }
 #searchResult .errNone {
   margin: 0.5rem;

@@ -64,7 +64,8 @@ $res = array (
     "message" => $msg,
     "response" => array(
         "Main" => $ret,
-        "Sub" => $sub
+        "Sub" => $sub,
+        "DisplaySearchResult" => DISPLAY_SEARCH_RESULT
     )
 );
 
