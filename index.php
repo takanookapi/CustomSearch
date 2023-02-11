@@ -15,11 +15,11 @@ $title = "Google検索";
 
         <form action="/api/search_send_get.php" class="search" id="frmSearch">
             <input type="text" name="keyword" id="keyword" value="" placeholder="検索文字を入力" maxlength="32">
-            <a class="submit" type="button">
+            <a class="submit">
                 <svg class="searchSvg">
                     <use xlink:href="#searchSvg"></use>
                 </svg>
-</a>
+            </a>
         </form>
 
         <main id="searchResult">

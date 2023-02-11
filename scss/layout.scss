@@ -40,20 +40,20 @@ form {
         outline: none;
     }
     
-    button[type=submit] {
-        width: 3rem;
-        height: $searchHeight;
+    a.submit{
+        width: 2rem;
         border: 1px solid rgb(74, 74, 74);
         border-color: rgb(25, 118, 210);
         background: rgb(25, 118, 210);
-        padding: 0.1rem;
+        padding: 0.4rem;
         border-radius: 0 3px 3px 0;
         line-height: 25px;
         cursor: pointer;
-
+            
         .searchSvg {
+            display: inline-block;
             fill: rgb(255, 255, 255);
-            width: 1rem;
+            width: 2rem;
             height: 1rem;
             line-height: 4rem;
         }
